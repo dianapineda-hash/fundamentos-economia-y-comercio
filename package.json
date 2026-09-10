@@ -1,0 +1,9 @@
+{
+  "name": "laboratorio-economia-comercio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratorio pedagógico de Fundamentos de Economía y Comercio",
+  "scripts": { "build": "node scripts/check.mjs", "test": "node --test tests/models.test.mjs", "start": "node scripts/serve.mjs" },
+  "engines": { "node": ">=20" }
+}

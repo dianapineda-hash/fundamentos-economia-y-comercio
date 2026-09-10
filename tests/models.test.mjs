@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {frontier,freight,gdp,trade,exportsData} from '../dist/models.js';
+test('La frontera conserva recursos y ajusta decisiones imposibles',()=>{for(const hours of [60,120,180])for(const q of [0,15,30,50]){const r=frontier(hours,q);assert.equal(r.cacao*2+r.chocolate*4,hours);assert.ok(r.cacao>=0);}assert.equal(frontier(120,15).cacao,30);});
+test('La comparación logística cambia en el umbral correcto',()=>{assert.equal(freight(70).a,2600);assert.equal(freight(70).b,2490);assert.equal(freight(56.25).a,freight(56.25).b);assert.ok(freight(30).a<freight(30).b);});
+test('Una compra importada se cancela en la identidad de gasto',()=>{assert.equal(gdp(500,150,200,100,80),870);assert.equal(gdp(520,150,200,100,100),870);});
+test('El intercambio conserva la producción y muestra ganancias mutuas',()=>{for(const price of [1.5,2,2.5,3,3.5]){const r=trade(price);assert.equal(r.aCacao+r.bCacao,60);assert.equal(r.aMachines+r.bMachines,15);}const r=trade(2.5);assert.equal(r.aGain,5);assert.equal(r.bGain,5);assert.equal(r.bothGain,true);assert.equal(trade(3.1).bothGain,false);});
+test('Las participaciones de exportaciones incluyen el redondeo oficial',()=>{assert.ok(Math.abs(exportsData.reduce((a,b)=>a+b.share,0)-100.1)<1e-8);});
