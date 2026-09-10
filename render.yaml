@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: laboratorio-economia-comercio
+    name: fundamentos-economia-y-comercio
     runtime: static
     buildCommand: npm run build
     staticPublishPath: ./dist

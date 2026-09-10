@@ -1,5 +1,7 @@
 # Laboratorio de economía y comercio
 
+Repositorio: https://github.com/dianapineda-hash/fundamentos-economia-y-comercio
+
 Recurso educativo de consulta y experimentación para las sesiones 2, 3 y 4 de Fundamentos de Economía y Comercio, Programa de Comercio Exterior, Universidad del Valle. Docente: Diana Lorena Pineda Ospina.
 
 ## Contenido
@@ -11,7 +13,7 @@ Recurso educativo de consulta y experimentación para las sesiones 2, 3 y 4 de F
 - Biblioteca: seis libros con preguntas de lectura y acceso a las fuentes.
 - Caja de herramientas: glosario, reto integrador y ficha de evidencia descargable.
 
-Los escenarios de empresas y economías son ficticios y están identificados. Los datos estadísticos tienen fuente, período y comparación. Corte de consulta: 10 de septiembre de 2026. No hay noticias en tiempo real ni captura de respuestas de estudiantes. Las notas se conservan temporalmente en el formulario de la vista y se pueden descargar como texto.
+Los escenarios de empresas y economías son ficticios y están identificados. Los datos estadísticos tienen fuente, período y comparación. Corte de consulta: 10 de septiembre de 2026. No hay noticias en tiempo real ni captura de respuestas de estudiantes. Las notas se conservan en memoria durante la navegación de la pestaña y se pueden descargar como texto.
 
 ## Ejecutar localmente
 
