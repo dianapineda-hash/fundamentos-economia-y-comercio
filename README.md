@@ -50,3 +50,9 @@ Se utiliza la firma horizontal descargada sin modificar desde el portal de la Un
 ## Validación
 
 Las pruebas verifican conservación de recursos, comparación logística, cancelación contable de una compra importada y distribución de bienes tras el intercambio. La revisión estática valida archivos, recursos locales y sintaxis JavaScript. Los gráficos tienen descripciones y sus resultados numéricos se muestran como texto. Hay navegación por teclado, etiquetas de controles, estilos de foco y adaptación a pantallas pequeñas.
+
+## Ejercicios de análisis y lecturas
+
+La ruta #analisis incluye escasez y productividad, costo de oportunidad entre alternativas excluyentes y producción marginal con costos crecientes. Conserva notas y escenarios en memoria durante la navegación y permite descargar la bitácora. Los valores son simulados, no calibrados con los artículos. #lecturas reúne tres investigaciones científicas con DOI y un artículo de The Economist republicado bajo licencia en Mint.
+
+Pruebas: factibilidad, productividad, umbrales, costos marginales, empates, capacidad y costos hundidos. El gasto irrecuperable se conserva incluso con producción cero; no representa un costo evitable al cerrar.
