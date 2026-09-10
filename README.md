@@ -1,5 +1,7 @@
 # Laboratorio de economía y comercio
 
+Sitio público: https://fundamentos-economia-y-comercio.onrender.com
+
 Repositorio: https://github.com/dianapineda-hash/fundamentos-economia-y-comercio
 
 Recurso educativo de consulta y experimentación para las sesiones 2, 3 y 4 de Fundamentos de Economía y Comercio, Programa de Comercio Exterior, Universidad del Valle. Docente: Diana Lorena Pineda Ospina.
